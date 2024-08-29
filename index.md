@@ -2,6 +2,12 @@
 layout: default
 ---
 
+# Portfolio
+## João's Portfolio
+
+Hosted on GitHub Pages - Theme by mattgraham
+
+
 # About Me
 
 **Welcome to my portfolio!** I'm a passionate and skilled individual with a love for creating innovative and impactful projects. 
