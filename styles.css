@@ -1,0 +1,228 @@
+/* Basic styles */
+body {
+    font-family: 'Arial', sans-serif; /* Replace with the actual font used */
+    margin: 0;
+    background-color: #000; 
+    color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #000;
+    padding: 20px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+.logo {
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 30px; 
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-color: #000; 
+    padding: 100px 0; 
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+.tag {
+    background-color: #ff6600; 
+    color: #000;
+    padding: 5px 10px;
+    border-radius: 5px; 
+    display: inline-block; 
+    margin-bottom: 10px;
+}
+
+.hero h1 {
+    font-size: 48px; 
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px; 
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    background-color: #ff6600;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px; 
+    margin: 0 10px;
+    cursor: pointer; 
+}
+
+/* Features Section Styles */
+.features {
+    background-color: #111; 
+    padding: 80px 0;
+}
+
+.features .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    width: 48%; 
+    padding: 20px;
+    border-radius: 10px; 
+    background-color: #222; 
+}
+
+.feature-icon {
+    text-align: center; 
+    margin-bottom: 20px;
+}
+
+.feature-icon img {
+    width: 80px; 
+}
+
+.feature h2 {
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.feature button, .feature a {
+    display: block; 
+    background-color: #ff6600; 
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px; 
+}
+
+.checklist {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.checklist li {
+    margin-bottom: 10px; 
+}
+
+.checklist li::before {
+    content: '✓'; 
+    color: #ff6600; 
+    margin-right: 5px;
+}
+
+/* Updates Section Styles */
+.updates {
+    background-color: #000;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.updates h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    padding: 40px 0; 
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.footer-column {
+    width: 23%; 
+}
+
+.footer-column h3 {
+    color: #ff6600;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-column li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icons {
+    /* Add your social media icon styles here */
+}
+
+.copyright {
+    font-size: 14px; 
+    color: #999; 
+}
+
+.download-button {
+    text-align: center; 
+}
+
+.download-button button {
+    background-color: #ff6600;
+    color: #000;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+
+/* Add more specific styles and media queries as needed */ 
